@@ -18,9 +18,33 @@
     <ClCompile Include="Main.cpp">
       <Filter>Ressourcendateien</Filter>
     </ClCompile>
+    <ClCompile Include="CKeyhandler.cpp">
+      <Filter>Ressourcendateien</Filter>
+    </ClCompile>
+    <ClCompile Include="CMoushandler.cpp">
+      <Filter>Ressourcendateien</Filter>
+    </ClCompile>
+    <ClCompile Include="CSEventSystem.cpp">
+      <Filter>Ressourcendateien</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="CHotKeyhandler.h">
+    <ClInclude Include="CKeyhandler.h">
+      <Filter>Quelldateien</Filter>
+    </ClInclude>
+    <ClInclude Include="CMousehandler.h">
+      <Filter>Quelldateien</Filter>
+    </ClInclude>
+    <ClInclude Include="SMessages.h">
+      <Filter>Quelldateien</Filter>
+    </ClInclude>
+    <ClInclude Include="CWindowhandler.h">
+      <Filter>Quelldateien</Filter>
+    </ClInclude>
+    <ClInclude Include="stdfx.h">
+      <Filter>Quelldateien</Filter>
+    </ClInclude>
+    <ClInclude Include="CSEventSystem.h">
       <Filter>Quelldateien</Filter>
     </ClInclude>
   </ItemGroup>

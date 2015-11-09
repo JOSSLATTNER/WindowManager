@@ -142,10 +142,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CKeyhandler.cpp" />
+    <ClCompile Include="CMoushandler.cpp" />
+    <ClCompile Include="CSEventSystem.cpp" />
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="CHotKeyhandler.h" />
+    <ClInclude Include="CSEventSystem.h" />
+    <ClInclude Include="CKeyhandler.h" />
+    <ClInclude Include="CMousehandler.h" />
+    <ClInclude Include="CWindowhandler.h" />
+    <ClInclude Include="SMessages.h" />
+    <ClInclude Include="stdfx.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
